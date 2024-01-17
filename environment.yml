@@ -1,0 +1,16 @@
+name: rlgames
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.8
+  - pip 
+  - pip:
+    - setuptools==58.2.0
+    - gym==0.25.2
+    - stable-retro
+    - stable_baselines3
+    - wheel
+    - tensorboard
+    - pygame
